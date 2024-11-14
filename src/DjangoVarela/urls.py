@@ -18,4 +18,5 @@ from django.urls import path
 from django.views.defaults import server_error
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('bonjour/',server_error)
 ]
