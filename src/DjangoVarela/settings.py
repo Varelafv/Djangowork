@@ -54,7 +54,7 @@ ROOT_URLCONF = 'DjangoVarela.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/pse/Djangowork/src/DjangoVarela/templantes'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
