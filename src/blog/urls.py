@@ -5,5 +5,5 @@ from .views import  index
 
 urlpatterns = [
 
-    path('index/',index ,name="blog-index")
+    #path('index/',index ,name="blog-index")
 ]
